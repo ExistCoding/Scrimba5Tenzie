@@ -1,0 +1,29 @@
+@import "App.css";
+@import "components/Die/Die.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+:root {
+    width: 100%;
+    height: 100%;
+
+    font-size: 62.5%;
+
+    color: #2B283A;
+    background-color: #0B2434;
+}
+
+body, #root {
+    height: 100%;
+}
+
+#root {
+    padding: 3em 2em;
+    display: grid;
+    place-items: center;
+}
